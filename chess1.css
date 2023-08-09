@@ -1,0 +1,135 @@
+#main{
+    height: 100vh;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#sub{
+    height: 600px;
+    width: 600px;
+    /* background-color: aqua; */
+    border: 20px solid black;
+    
+}
+.col1,.col2{
+    border: 1px solid red;
+    height: 73px;
+    width: 73px;
+}
+.apple1{
+    border: 1px solid red;
+    height: 73px;
+    width: 73px;
+    background-color:rgb(233, 96, 96);
+}
+.apple2{
+    border: 1px solid red;
+    height: 73px;
+    width: 73px;
+    background-color: rgb(119, 29, 29);
+}
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.col1{
+    background-color:rgb(233, 96, 96);
+}
+.col1:hover{
+    border-color: white;
+    background-color: rgb(219, 47, 47);
+}
+.col2{
+    background-color: rgb(119, 29, 29);
+}
+.col2:hover{
+    border-color: white;
+    background-color: rgb(107, 22, 22);
+}
+.col1,.col2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+#white2,#white1{
+    color: white;
+    transition: 1s;
+    
+}
+.whiter{
+    transition: 1s;
+}
+.whiter:hover{
+    transform: translateY(-151px);
+    background-color: rgb(107, 22, 22,0);
+    
+}
+.blacky{
+    transition: 1s;
+}
+.blacky:hover{
+    transform: translateY(+151px);
+    background-color: rgb(107, 22, 22,0);
+    
+}
+.elephantb,.elephantw,.horseb,.horsew,.ministerb1,.ministerb2,.ministerw1,.ministerw2,.kingb,.kingw,.queenb,.queenw{
+    transition: 1s;
+}
+.elephantb:hover{
+    transform: translateY(+375px);
+    background-color: rgb(107, 22, 22,0);
+    
+}
+.elephantw:hover{
+    transform: translateY(-375px);  
+    background-color: rgb(107, 22, 22,0);
+}
+.horseb:hover{
+    translate: 75px 150px;
+    background-color: rgb(107, 22, 22,0);
+}
+.horsew:hover{
+    translate: -75px -150px;
+    background-color: rgb(107, 22, 22,0);
+
+}
+.ministerb1:hover{
+    translate:224px 224px ;
+    background-color: rgb(107, 22, 22,0);
+}
+.ministerb2:hover{
+    translate:-227px 225px ;
+    background-color: rgb(107, 22, 22,0);
+}
+.ministerw1:hover{
+    translate:224px -225px ;
+    background-color: rgb(107, 22, 22,0);
+}
+.ministerw2:hover{
+    translate:-227px -225px ;
+    background-color: rgb(107, 22, 22,0);
+}
+.kingb:hover{
+    transform: translateY(+150px);
+    background-color: rgb(107, 22, 22,0);
+}
+.kingw:hover{
+    transform: translateY(-151px);
+    background-color: rgb(107, 22, 22,0); 
+}
+.queenb:hover{
+    translate:-227px 225px ;
+    background-color: rgb(107, 22, 22,0);
+}
+.queenw:hover{
+    translate:299px -301px ;
+    background-color: rgb(107, 22, 22,0);
+}
+
+
+
+
+
